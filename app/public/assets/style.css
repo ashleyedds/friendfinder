@@ -1,0 +1,62 @@
+/* HOME PAGE */
+
+.btn-large {
+    z-index: 4;
+    position: relative;
+    left: 45.5%;
+    top: 577px;
+}
+
+.btn-large i {
+ margin-right: 5px;
+}
+
+#start-btn {
+    padding-bottom: 60px;
+}
+
+h3 {
+    font-family: 'Pacifico', cursive;
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+}
+
+h5 {
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+}
+
+.slider .slides {
+    margin: -60px;
+    width: 100vw;
+}
+
+/* SURVEY PAGE */
+
+.brand-logo {
+    font-family: 'Pacifico', cursive;
+}
+
+ /* label color */
+ .input-field label {
+    color: #000;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color:#4caf50;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #4caf50 ;
+    box-shadow: 0 1px 0 0 #4caf50 ;
+  }
+
+ .disabled {
+      color: #4caf50;
+  }
