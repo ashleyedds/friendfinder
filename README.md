@@ -10,4 +10,4 @@
 </ul>
 
 <h3>Once all your NPM packages are installed, run the server.js from your command line and visit the site from your locally-hosted port.
-OR, visit the heroku deployment, found <a href="#">Here</a></h3>
+OR, visit the heroku deployment, found <a href="https://guarded-ridge-21146.herokuapp.com/">Here</a></h3>
