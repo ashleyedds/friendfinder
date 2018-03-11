@@ -1,0 +1,79 @@
+/* HOME PAGE */
+
+.btn-large {
+    z-index: 4;
+    position: relative;
+    left: 45.5%;
+    top: 577px;
+}
+
+.btn-large i {
+ margin-right: 5px;
+}
+
+#start-btn {
+    padding-bottom: 60px;
+}
+
+h3 {
+    font-family: 'Pacifico', cursive;
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+}
+
+h5 {
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+}
+
+.slider .slides {
+    margin: -60px;
+    width: 100vw;
+}
+
+/* SURVEY PAGE */
+
+.brand-logo {
+    font-family: 'Pacifico', cursive;
+}
+
+h5 {
+    text-align: center;
+}
+
+ul.dropdown-content.select-dropdown li span {
+     color: #4caf50;
+ }
+
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: #4caf50 !important;
+   }
+
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #4caf50 !important;
+    box-shadow: 0 1px 0 0 #4caf50 !important;
+   }
+
+.friend-photo {
+    max-width: 100%;
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal h1 {
+    text-align: center;
+}
+
+.friend-name {
+    text-align: center;
+    color: #4caf50;
+    font-family: 'Pacifico', cursive;
+}

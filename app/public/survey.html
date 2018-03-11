@@ -7,7 +7,7 @@
 
     <title>FriendFinder</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
@@ -17,175 +17,178 @@
     <nav>
         <div class="nav-wrapper green">
             <a href="#" class="brand-logo center">FriendFinder</a>
-            <!-- <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
-                  </ul> -->
         </div>
     </nav>
 
     <div class="container">
         <form>
-        <h2>Survey Questions</h2>
-        <hr>
+            <h2>Survey Questions</h2>
+            <hr>
 
-        <h3 class="survey-header">About You</h3>
-        <div class="input-field">
-            <input placeholder="First and Last Name" id="name" type="text" class="validate">
-            <label for="name">Name (required)</label>
+            <h3 class="survey-header">About You</h3>
+            <div class="input-field">
+                <input placeholder="First and Last Name" id="name" type="text" class="validate">
+                <label for="name">Name (required)</label>
+            </div>
+
+            <div class="input-field">
+                <input placeholder="Link to an image of you" id="photo" type="text" class="validate">
+                <label for="photo">Photo of you</label>
+            </div>
+            <hr>
+
+            <h5>Answer the following...do you strongly AGREE or strongly DISAGREE? This will help us determine which friend is totally perf for you.</h5>
+
+            <h3>Question 1</h3>
+            <h4>You mind is always buzzing with unexplored ideas and plans.</h4>
+            <div class="input-field">
+                <select id="qOne">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+            </div>
+
+            <h3>Question 2</h3>
+            <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+            <div class="input-field">
+                <select id="qTwo">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+            </div>
+
+            <h3>Question 3</h3>
+            <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+            <div class="input-field">
+                <select id="qThree">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+            </div>
+
+            <h3>Question 4</h3>
+            <h4>You rarely do something just out of sheer curiosity.</h4>
+            <div class="input-field">
+                <select id="qFour">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1 (sstrongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+            </div>
+
+            <h3>Question 5</h3>
+            <h4>People can rarely upset you.</h4>
+            <div class="input-field">
+                <select id="qFive">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agre)</option>
+                </select>
+            </div>
+
+            <h3>Question 6</h3>
+            <h4>It is often difficult for you to relate to other people's feelings.</h4>
+            <div class="input-field">
+                <select id="qSix">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+            </div>
+
+            <h3>Question 7</h3>
+            <h4>In a discussion, truth should be more important than people's sensitivities.</h4>
+            <div class="input-field">
+                <select id="qSeven">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+            </div>
+
+            <h3>Question 8</h3>
+            <h4>You rarely get carried away by fantasies and ideas.</h4>
+            <div class="input-field">
+                <select id="qEight">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+            </div>
+
+            <h3>Question 9</h3>
+            <h4>You think that everyone's views should be respected regardless of whether they are supported by facts or not.</h4>
+            <div class="input-field">
+                <select id="qNine">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+            </div>
+
+            <h3>Question 10</h3>
+            <h4>You feel more energetic after spending time with a group of people.</h4>
+            <div class="input-field">
+                <select id="qTen">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1 (strongly disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly agree)</option>
+                </select>
+            </div>
+
+            <button class="btn waves-effect waves-light green" type="submit" name="action" id="submit-user">Submit
+                <i class="material-icons right">send</i>
+            </button>
+
+            <hr>
+        </form>
+    </div>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
         </div>
-
-        <div class="input-field">
-            <input placeholder="Link to an image of you" id="photo" type="text" class="validate">
-            <label for="photo">Photo of you</label>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
         </div>
-        <hr>
-
-
-        <h3>Question 1</h3>
-        <h4>You mind is always buzzing with unexplored ideas and plans.</h4>
-        <div class="input-field">
-            <select id="qOne">
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-
-        <h3>Question 2</h3>
-        <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
-        <div class="input-field">
-            <select id="qTwo">
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-
-        <h3>Question 3</h3>
-        <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
-        <div class="input-field">
-            <select id="qThree">
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-
-        <h3>Question 4</h3>
-        <h4>You rarely do something just out of sheer curiosity.</h4>
-        <div class="input-field">
-            <select id="qFour">
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-
-        <h3>Question 5</h3>
-        <h4>People can rarely upset you.</h4>
-        <div class="input-field">
-            <select id="qFive">
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-
-        <h3>Question 6</h3>
-        <h4>It is often difficult for you to relate to other people's feelings.</h4>
-        <div class="input-field">
-            <select id="qSix">
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-
-        <h3>Question 7</h3>
-        <h4>In a discussion, truth should be more important than people's sensitivities.</h4>
-        <div class="input-field">
-            <select id="qSeven">
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-
-        <h3>Question 8</h3>
-        <h4>You rarely get carried away by fantasies and ideas.</h4>
-        <div class="input-field">
-            <select id="qEight">
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-
-        <h3>Question 9</h3>
-        <h4>You think that everyone's views should be respected regardless of whether they are supported by facts or not.</h4>
-        <div class="input-field">
-            <select id="qNine">
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-
-        <h3>Question 10</h3>
-        <h4>You feel more energetic after spending time with a group of people.</h4>
-        <div class="input-field">
-            <select id="qTen">
-                <option value="" disabled selected>Choose your option</option>
-                <option class="green" value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </div>
-
-        <button class="btn waves-effect waves-light green" type="submit" name="action" id="submit-user">Submit
-            <i class="material-icons right">send</i>
-        </button>
-
-        <hr>
-    </form>
     </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="assets/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
-
 </html>
